@@ -1,12 +1,26 @@
 <html>
 	<head>
-		<title>Web Data Discovery</title>
+		<title>data.txt: Data for the Web</title>
+		<link rel="icon" type="image/png" href="datatxt.png"/>
+		<style>
+			body {
+				max-width: 600px;
+    			margin: 10% auto 10% auto;
+    			text-align: justify;
+   	 			font-family: monospace;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Web Data Discovery</h1>
-		The <a href="https://robots.txt">robots.txt</a> and <a href="https://humans.txt">humans.txt</a> files decribe a website content for web crawlers and people. In a similar way, a data.txt file descibes a website content for data discovery and access.
-
-		A data.txt file is just a <a href="https://yaml.org/">yaml</a> file with a list of attributes that describe one or many data sources. The only required attribute is a 'path' to point to data sources available in the website, but can also include many other optional fields like 'description', 'license', 'name', and so on.
+		<h1><mark>data.txt</mark>: Data for the Web</h1>
+		<p>
+			The <a href="https://www.robotstxt.org">robots.txt</a> and <a href="https://humanstxt.org">humans.txt</a> files describe a website's content for web crawlers and people. In a similar way, a <b>data.txt</b> file describes a website's content for data discovery and access.
+		</p>
+		<p>
+			A data.txt file is a <a href="https://yaml.org/">yaml</a> file describing one or many data sources available through your website. Each entry must contain a 'path' attribute to point to the location of each data source, it can also contain optional attributes like 'description', 'license', 'name', and so on.
+		</p>
+		<p>
+			Feel free to <a href="https://github.com/datatxtorg/datatxt-site/edit/master/data.txt">suggest</a> your website into our <a href="data.txt">data.txt</a> file or <a href="https://github.com/datatxtorg/datatxt-spec">contribute</a> to this specification.
+		</p>
 	</body>
 </html>
- 
