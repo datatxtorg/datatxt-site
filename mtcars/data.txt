@@ -1,0 +1,21 @@
+path:
+- data.csv
+- data.rds
+rows: 32
+cols: 11
+columns:
+  mpg: numeric
+  cyl: numeric
+  disp: numeric
+  hp: numeric
+  drat: numeric
+  wt: numeric
+  qsec: numeric
+  vs: numeric
+  am: numeric
+  gear: numeric
+  carb: numeric
+description: The data was extracted from the 1974 Motor Trend US magazine, and comprises
+  fuel consumption and 10 aspects of automobile design and performance for 32 automobiles
+  (1973–74 models).
+type: table
