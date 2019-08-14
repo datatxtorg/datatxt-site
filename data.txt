@@ -1,5 +1,5 @@
-- path: iris
-  name: iris/data.csv
+- path: iris/data.csv
+  name: iris
   rows: 150
   cols: 5
   description: This famous (Fisher's or Anderson's) iris data set gives the measurements
