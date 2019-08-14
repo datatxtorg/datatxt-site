@@ -1,5 +1,5 @@
 - path: iris
-  name: iris
+  name: iris/data.csv
   rows: 150
   cols: 5
   description: This famous (Fisher's or Anderson's) iris data set gives the measurements
@@ -7,7 +7,7 @@
     respectively, for 50 flowers from each of 3 species of iris. The species are Iris
     setosa, versicolor, and virginica.
   type: table
-- path: mtcars
+- path: mtcars/data.csv
   name: mtcars
   rows: 32
   cols: 11
